@@ -7,22 +7,22 @@ from logging.handlers import RotatingFileHandler
 
 #Bot Variables
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", "5296584067"))
+APP_ID = int(os.environ.get("APP_ID", "22768311"))
+API_HASH = os.environ.get("API_HASH", "702d8884f48b42e865425391432b3794")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6040503076"))
 
 #Database Variables
-DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abidabdullahown9:abidabdullah1425@cluster0.ghxa0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "NocoFlux")
+DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://gamerspyer2023:HpcyTyfkjBYvLGi4@cluster0.dogml.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #your channel id where the file will be stored as log format
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002191732189"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002436399053")
 
 #Force Sub Channel id [Your Telegram Channels id] 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", ""))
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", ""))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001999825163"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002059068082"))
 FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", ""))
 FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", ""))
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Whatt!You haven't join worlds bast channel ever create in human existence, Join Now! All of Them, Smash them")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Whatt!You haven't join worlds best channel ever create in human existence, Join Now! All of Them, Smash them")
 
 
 #Extra
@@ -33,7 +33,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first} I'm a bot who can store files and share it via spacial links")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} I Am A File Sharing Bot Of @CrunchyRollOfficialChannel")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "5296584067").split()): #your owner id paste here also, if you have more then add in split
@@ -48,10 +48,10 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None) # if you want to add cus
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True' #keep if none thats better but if you know what to do then as you wish
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "You can't send me Direct Message."
+USER_REPLY_TEXT = "You can't send me Direct Message, I'm Only File Share Bot of @CrunchyRollOfficialChannel."
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5296584067) #put owner id here also 
+ADMINS.append(6040503076) #put owner id here also 
 
 LOG_FILE_NAME = "tg-file-sharing-bot.txt"
 
