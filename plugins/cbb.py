@@ -14,7 +14,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [
                     InlineKeyboardButton("⚡Cʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('⛄Aɴɪᴍᴇ Qᴜᴇsᴛ', url='https://t.me/AnimeQuestX')
+                    InlineKeyboardButton('⛄Aɴɪᴍᴇ Channel', url='https://t.me/CrunchyRollOfficialChannel')
                     ]
                 ]
             )
